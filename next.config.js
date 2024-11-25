@@ -1,18 +1,15 @@
 /** @type {import('next').NextConfig} */
 const isProduction = process.env.NODE_ENV === 'production';
+const repoName = 'freeai.world';
 
 const nextConfig = {
-  output: isProduction ? 'export' : undefined,
+  output: 'export',
   images: {
     unoptimized: true,
   },
-  ...(isProduction ? {
-    basePath: '/freeai.world',
-    assetPrefix: '/freeai.world/',
-  } : {
-    basePath: '',
-    assetPrefix: '',
-  }),
+  basePath: isProduction ? `/${repoName}` : '',
+  assetPrefix: isProduction ? `/${repoName}/` : '',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig;
