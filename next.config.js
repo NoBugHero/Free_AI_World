@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
+const isProduction = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  output: 'export',
+  output: isProduction ? 'export' : undefined,
   images: {
     unoptimized: true,
   },
-  basePath: '/freeai.world',
-  assetPrefix: '/freeai.world/',
+  ...(isProduction ? {
+    basePath: '/freeai.world',
+    assetPrefix: '/freeai.world/',
+  } : {
+    basePath: '',
+    assetPrefix: '',
+  }),
 }
 
 module.exports = nextConfig;
