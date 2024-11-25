@@ -24,14 +24,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Copy Files
-        run: |
-          cp -r out/* /home/runner/actions_github_pages_*/
-          cp CNAME /home/runner/actions_github_pages_*/
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
           cname: freeai.world
+          force_orphan: true
