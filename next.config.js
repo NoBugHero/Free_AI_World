@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/freeai.world',
+  assetPrefix: '/freeai.world/',
 }
 
 module.exports = nextConfig;
