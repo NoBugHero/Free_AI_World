@@ -21,6 +21,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Debug Environment
+        run: |
+          echo "GITHUB_ACTIONS: $GITHUB_ACTIONS"
+          echo "NODE_ENV: $NODE_ENV"
+          echo "Current directory: $PWD"
+          echo "Repository: $GITHUB_REPOSITORY"
+          ls -la
+
       - name: Build
         run: npm run build
         env:
