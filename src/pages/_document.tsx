@@ -2,8 +2,9 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
+        <meta charSet="utf-8" />
         <meta
           httpEquiv="Content-Security-Policy"
           content={`
@@ -17,7 +18,7 @@ export default function Document() {
           `.replace(/\s+/g, ' ').trim()}
         />
       </Head>
-      <body>
+      <body className="bg-white dark:bg-gray-900">
         <Main />
         <NextScript />
       </body>

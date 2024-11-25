@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import Head from 'next/head';
+import Head from "next/head";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white dark:bg-gray-900">
         <Component {...pageProps} />
       </div>
     </>
