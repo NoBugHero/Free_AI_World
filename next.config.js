@@ -7,6 +7,10 @@ const nextConfig = {
   },
   basePath: '',
   assetPrefix: '',
+  compiler: {
+    removeConsole: false,
+  },
+  trailingSlash: true,
 };
 
 module.exports = nextConfig
