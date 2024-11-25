@@ -22,12 +22,12 @@ jobs:
         run: npm install
 
       - name: Build
-        run: |
-          npm run build
-          ls -la ./out
+        run: npm run build
 
-      - name: Copy CNAME
-        run: cp CNAME ./out/
+      - name: Copy Files
+        run: |
+          cp -r out/* /home/runner/actions_github_pages_*/
+          cp CNAME /home/runner/actions_github_pages_*/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
