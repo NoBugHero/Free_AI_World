@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: process.env.GITHUB_ACTIONS ? '/' : '',
+  basePath: process.env.GITHUB_ACTIONS ? '/Free_AI_World' : '',
+  assetPrefix: process.env.GITHUB_ACTIONS ? '/Free_AI_World/' : '',
   trailingSlash: true,
 }
 
