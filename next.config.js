@@ -5,12 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: '',
-  compiler: {
-    removeConsole: false,
-  },
-  trailingSlash: true,
-};
+}
 
-module.exports = nextConfig
+module.exports = nextConfig;
