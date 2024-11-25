@@ -14,6 +14,19 @@
   }
 }
 
+/* 添加一些基础样式类 */
+@layer components {
+  .bg-grid {
+    @apply bg-[linear-gradient(to_right,#80808018_2px,transparent_2px),linear-gradient(to_bottom,#80808018_2px,transparent_2px)];
+    background-size: 32px 32px;
+  }
+  
+  .bg-grid-small {
+    @apply bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)];
+    background-size: 8px 8px;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
