@@ -11,7 +11,7 @@ const nextConfig = {
   } : {}),
   // 添加输出配置
   output: 'export',
-  // 移除 webpack 配置，让 Next.js 处理样式
+  // 样式配置
   images: {
     unoptimized: true
   }
