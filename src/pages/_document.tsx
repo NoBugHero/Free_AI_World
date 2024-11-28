@@ -15,6 +15,7 @@ export default function Document() {
             font-src 'self';
             connect-src 'self';
             worker-src 'self' blob:;
+            frame-ancestors 'none';
           `.replace(/\s+/g, ' ').trim()}
         />
       </Head>

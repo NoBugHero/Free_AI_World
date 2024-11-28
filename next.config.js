@@ -6,11 +6,15 @@ const nextConfig = {
   // 生产环境配置
   ...(process.env.NODE_ENV === 'production' ? {
     basePath: '',
-    assetPrefix: '.',
+    assetPrefix: './',
     trailingSlash: true,
   } : {}),
   // 添加输出配置
   output: 'export',
+  // 移除 webpack 配置，让 Next.js 处理样式
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig
