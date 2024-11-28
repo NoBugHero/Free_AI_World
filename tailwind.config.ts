@@ -1,33 +1,16 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
-export default {
+const config: Config = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'media',
   theme: {
-    extend: {
-      colors: {
-        gray: {
-          50: '#F9FAFB',
-          // ... 其他灰度
-        },
-        blue: {
-          50: '#EFF6FF',
-          // ... 其他蓝色
-        },
-        purple: {
-          50: '#F5F3FF',
-          // ... 其他紫色
-        },
-        indigo: {
-          50: '#EEF2FF',
-          // ... 其他靛蓝
-        },
-      },
-      backgroundImage: {
-        'radial-gradient': 'radial-gradient(circle at center, var(--tw-gradient-stops))',
-      },
-    },
+    extend: {},
   },
   plugins: [],
-} satisfies Config;
+}
+
+export default config

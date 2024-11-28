@@ -1,10 +1,7 @@
-const { env } = require('./config/environment')
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '',
-  assetPrefix: '',
+  distDir: 'out',
   images: {
     unoptimized: true,
   },
