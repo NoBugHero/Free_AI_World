@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.prose {
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prose h1 {
+  color: #111827;
+  margin-bottom: 2rem;
+}
+
+.prose h2 {
+  color: #1F2937;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose section {
+  margin-bottom: 3rem;
+}

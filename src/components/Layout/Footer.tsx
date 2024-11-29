@@ -4,7 +4,6 @@ export default function Footer() {
   const footerLinks = [
     { name: 'Risks', href: '/risks' },
     { name: 'Privacy Notice', href: '/privacy' },
-    { name: 'Trademark Policy', href: '/trademark' },
     { name: 'Terms of Service', href: '/tos' },
   ];
 

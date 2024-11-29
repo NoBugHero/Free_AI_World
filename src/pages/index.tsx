@@ -35,7 +35,9 @@ export default function Home() {
                   Free AI World 3 Laws
                 </h2>
                 <p className="text-xl mb-12 text-center text-gray-600">
-                  The foundational principles that guide our AI development and operations.
+                  The foundational principles that guide AI development and operations.
+                  <br />
+                  Established: May 11, 2021
                 </p>
                 <div className="bg-white rounded-lg shadow-lg p-8">
                   <ul className="space-y-6 text-gray-600">
