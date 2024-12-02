@@ -2,9 +2,10 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en" className="light">
       <Head>
         <meta charSet="utf-8" />
+        <meta name="color-scheme" content="light" /> 
         <meta
           httpEquiv="Content-Security-Policy"
           content={`
