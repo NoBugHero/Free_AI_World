@@ -19,7 +19,7 @@ export default function Document() {
           `.replace(/\s+/g, ' ').trim()}
         />
       </Head>
-      <body className="bg-white dark:bg-gray-900">
+      <body className="bg-white">
         <Main />
         <NextScript />
       </body>

@@ -35,7 +35,7 @@ export default function Home() {
                   Free AI World 3 Laws
                 </h2>
                 <p className="text-xl mb-12 text-center text-gray-600">
-                  The foundational principles that guide AI development and operations.
+                  Dedicated to "High-Level Automation" and "Computing Power Equality" in AI.
                   <br />
                   Established: May 11, 2021
                 </p>
