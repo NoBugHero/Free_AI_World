@@ -9,7 +9,7 @@ export default function Header() {
   const navigation = [
     { name: 'Free AI World', href: '/' },
     { name: 'Free AI Docker', href: '/docker' },
-    { name: 'Free AI Coin', href: '/coin' },
+    { name: 'Free AI Chain', href: '/chain' },
     { name: 'Whitepaper', href: '/whitepaper' },
     { name: 'Terms of Service', href: '/tos' },
     { name: 'Risks', href: '/risks' },

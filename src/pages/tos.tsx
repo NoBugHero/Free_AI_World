@@ -6,7 +6,7 @@ export default function TermsOfService() {
     <Layout>
       <Head>
         <title>Terms of Service - Free AI World</title>
-        <meta name="description" content="Terms of Service for Free AI World, Free AI Docker, and Free AI Coin" />
+        <meta name="description" content="Terms of Service for Free AI World, Free AI Docker, and Free AI Chain" />
       </Head>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -28,7 +28,7 @@ export default function TermsOfService() {
             <ul className="list-disc pl-5 mt-4">
               <li>Free AI World platform ("FAIW")</li>
               <li>Free AI Docker ("FAID")</li>
-              <li>Free AI Coin ("FAIC")</li>
+              <li>Free AI Chain ("FAIC")</li>
               <li>All associated services and features</li>
             </ul>
           </section>

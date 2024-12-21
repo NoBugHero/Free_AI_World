@@ -8,7 +8,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { path: '/', label: 'Free AI World' },
   { path: '/docker', label: 'Free AI Docker' },
-  { path: '/coin', label: 'Free AI Coin' },
+  { path: '/chain', label: 'Free AI Chain' },
   { path: '/whitepaper', label: 'Whitepaper' },
   { path: '/tos', label: 'Terms of Service' },
   { path: '/risks', label: 'Risks' }

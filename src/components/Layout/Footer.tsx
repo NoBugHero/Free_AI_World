@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-gray-800">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-gray-400 mb-8 text-sm">
-          *Free AI Coin (FAIC) token eligibility is restricted by geography, age, and other factors. 
+          *Free AI Chain (FAIC) token eligibility is restricted by geography, age, and other factors. 
           FAIC is not available to individuals, businesses, or organizations that reside or are located in 
           (or have beneficial ownership in) China or other restricted territories. 
           Visit https://freeai.world/tos for details. Cryptocurrency products involve high risks. 

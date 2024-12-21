@@ -6,7 +6,7 @@ export default function Risks() {
     <Layout>
       <Head>
         <title>Risks - Free AI World</title>
-        <meta name="description" content="Important risk information about Free AI World, Free AI Docker, and Free AI Coin" />
+        <meta name="description" content="Important risk information about Free AI World, Free AI Docker, and Free AI Chain" />
       </Head>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

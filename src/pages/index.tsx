@@ -115,13 +115,13 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Section 3: Free AI Coin */}
+          {/* Section 3: Free AI Chain */}
           <section className="my-16 sm:my-24">
             <div className="bg-gray-50 rounded-3xl overflow-hidden relative">
               <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white opacity-90" />
               <div className="relative max-w-3xl mx-auto py-16 px-4 sm:py-24 sm:px-6">
                 <h2 className="text-4xl font-bold mb-6 text-center text-gray-900">
-                  Free AI Coin
+                  Free AI Chain
                 </h2>
                 <p className="text-xl mb-12 text-center text-gray-600">
                   Compliant with the FAIW 3 Laws, this reflects humanity's consensus on the FAIW 3 Laws.
